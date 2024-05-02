@@ -1,0 +1,95 @@
+.App {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: antiquewhite;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .add-task {
+    margin-bottom: 20px;
+  }
+  
+  .add-task input {
+    width: 86%;
+    padding: 8px;
+    margin-right: 10px;
+    background-color: rgb(199, 195, 191);
+  }
+  
+  .add-task button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-table th, .task-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .task-table th {
+    background-color: brown;
+  }
+  
+  .task-table tr:hover {
+    background-color: brown;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .complete-button, .undo-button, .delete-button {
+    display: inline-block; /* Set buttons to display inline */
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px; /* Add margin between buttons */
+  }
+  
+  .complete-button {
+    background-color:burlywood;
+  }
+  
+  .undo-button {
+    background-color: rgb(112, 82, 43)
+  }
+  
+  .delete-button {
+    background-color: blueviolet;
+  }
+
+  
+
+
+.action-buttons {
+    display: flex; 
+  }
+  
+  .complete-button, .undo-button, .delete-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px; 
+  }
+  
+ 
+  
